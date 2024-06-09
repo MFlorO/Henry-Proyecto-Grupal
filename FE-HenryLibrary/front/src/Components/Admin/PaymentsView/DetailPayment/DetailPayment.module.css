@@ -1,0 +1,201 @@
+
+
+.content{
+    /* background-color: aquamarine; */
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-right: 5%;
+    background-color: var(--bg) !important;
+    border: 2px solid transparent;
+    box-shadow: 5px 10px 30px #01A86C;
+    border-radius: 25px;    
+    padding: 1%;
+    margin-bottom: 5%;
+    /* max-height: 70vh; */
+    overflow-y: auto;
+}
+
+/* CABECERA ORDENES DE PAGO */
+.numOrder{
+    flex: 1; 
+    font-weight: bold; 
+    color: var(--text) !important
+}
+
+.user{
+    flex: 1; 
+    font-weight: bold; 
+    color: var(--text) !important
+}
+
+.amount{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.status{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.paymentMethod{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.date{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+
+
+
+/* ROWS ORDENES DE PAGO  */
+.contentRow{
+    /* background-color: aquamarine; */    
+    margin-top: 1%;
+    padding-top: 1% ;    
+}
+
+.numOrderRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.userRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.amountRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.statusRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.paymentMethodRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.dateRow{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+/* CABECERA LIBROS  */
+.book{
+    flex: 3;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.price{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.quantity{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.total{
+    flex: 1;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+/* ROWS LIBROS */
+
+.contentBook{
+    /* background-color: aquamarine; */
+    margin-top: 1%;
+    border-top: 2px solid #01A86C;
+    padding-top: 1% ;    
+    color: var(--text) !important
+}
+
+.bookRow{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.title{
+    height: 30%;
+    padding-left: 5%;
+    padding-right: 8%;
+    font-weight: bold;
+    color: var(--text) !important
+}
+
+.quantity{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.price{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.total{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.bookRowTitle{
+    color: var(--text) !important  
+}
+
+.shipping{
+    border-top: 2px solid #01A86C;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-right: 13%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.select{
+    background-color: var(--bg) !important;
+    color: var(--text) !important  
+}
+
+.select:focus{
+    background-color: var(--bg) !important;
+    color: var(--text) !important  
+}

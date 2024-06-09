@@ -1,0 +1,92 @@
+
+
+.container{
+    width: 100%;
+    height: 120%;
+    background-color: white;
+}
+
+
+.cont{
+    width: 60%;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* background-color: #01A86C; */
+    border: 2px solid orange;
+    box-shadow: 2px 2px 10px 4px #b7b7b2;
+}
+
+.contGreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: orange
+}
+
+.transaccion{
+    font-size: 23px;
+    margin-bottom: 0.5rem;
+}
+
+.pID{
+    font-size: 20px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.itemsTotales{
+    font-size: 23px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.tituloTabla{
+    font-weight: bolder !important;
+    color: black !important;
+    font-size: 10px !important;
+}
+
+.total{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 23px;
+}
+
+.totalLibros{
+    margin-top: 2rem;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange
+}
+
+.boton{
+    background-color: orange !important;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem !important;
+}
+
+.check{
+    width: 100%;
+    width: 30%;
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    color: orange
+}

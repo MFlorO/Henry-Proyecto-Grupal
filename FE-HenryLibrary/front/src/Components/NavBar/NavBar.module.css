@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 3rem;
+}
+
+.titulo {
+    display: flex;
+}
+
+.h1 {
+    font-family: Quicksand;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ABABAB;
+    padding-left: 3rem;
+}
+
+.h1_1 {
+    font-family: Quicksand;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #01A86C;
+    margin-right: 7rem;
+}
+
+.search {
+    margin-right: 6rem;
+    width: 30%;
+    position: relative;
+    /* font-family: Quicksand; */
+}
+
+.user {
+    width: 15%;
+    margin-right: 1rem;
+    /* font-family: Quicksand; */
+    font-weight: bolder;
+    font-size: 15px;
+    color: #01A86C;
+}
+
+.notUser {
+    width: 15%;
+    margin-right: 1rem;
+    visibility: hidden
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    width: 15%;
+}
+
+.icono {
+    width: 2rem;
+    color: var(--text);
+}
+
+
+.iconoCuenta {
+    width: 2rem;
+    color: var(--text);
+}
+
+.favoritos {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    margin-right: -1rem;
+}
+
+
+.iconoFav {
+    visibility: visible;
+    color: #01A86C;
+}
+
+.iconoNoFav {
+    visibility: hidden;
+    cursor: none;
+}
+
+.cantidad {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 10px;
+    background-color: #076744;
+    border: 1px solid #076744;
+    border-radius: 300px
+}
+
+.banderas {
+    display: flex;
+
+}
+
+.bandera {
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+/* ####### RESPONSIVE ######## */
+
+@media screen and (max-width: 1100px) {
+
+    .container {
+        width: 95%;
+        margin-left: 1.5rem;
+    }
+
+    .h1 {
+        font-size: 32px;
+    }
+
+    .h1_1 {
+        font-size: 32px;
+        margin-right: 5rem;
+    }
+
+    .search {
+        margin-right: 3rem;
+    }
+
+    .user {
+        width: 11%;
+        margin-right: 1.5rem;
+        font-size: 10px;
+    }
+
+    .notUser {
+        width: 11%;
+        margin-right: 1.5rem;
+    }
+
+
+    .cantidad {
+        top: 0.8rem;
+        right: 8rem;
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .container {
+        width: 95%;
+        margin-left: 0.5rem;
+    }
+
+    .h1 {
+        font-size: 28px;
+    }
+
+    .h1_1 {
+        font-size: 28px;
+        margin-right: 4rem;
+    }
+
+    .search {
+        margin-right: 3rem;
+    }
+
+    .user {
+        width: 11%;
+        margin-right: 1.5rem;
+        font-size: 10px;
+    }
+
+    .notUser {
+        width: 11%;
+        margin-right: 1.5rem;
+    }
+
+
+    .cantidad {
+        top: 0.8rem;
+        right: 8rem;
+        font-size: 10px;
+    }
+
+
+}
+
+
+@media (max-width: 844px) {
+
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 1rem;
+    }
+
+    .h1 {
+        font-weight: bolder;
+        font-size: 33px;
+        color: #ABABAB;
+        margin-left: -4rem;
+        margin-top: 4.5rem;
+    }
+
+    .h1_1 {
+        font-weight: bolder;
+        font-size: 33px;
+        color: #01A86C;
+        margin-bottom: 1.5rem;
+        margin-top: 4.5rem;
+    }
+
+    .search {
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        margin-left: 2.8rem;
+        width: 90%;
+        position: relative;
+    }
+
+    .user {
+        width: 95%;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 15px;
+        color: #01A86C;
+    }
+
+    .notUser {
+        visibility: hidden;
+        width: 95%;
+        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .iconos {
+        position: absolute;
+        top: 1.8rem;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: -4rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem !important;
+    }
+
+    .icono {
+        color: var(--text);
+    }
+
+
+
+}

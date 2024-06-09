@@ -1,0 +1,24 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.input{
+    background-color: var(--bg);
+    border: 3px solid var(--linkSearchBar);
+    color: var(--text) !important;
+}
+
+
+@media screen and (max-width: 844px) {
+
+    .input{
+        background-color: var(--bg);
+        border: 3px solid var(--linkSearchBar);
+        color: var(--text) !important;
+    }
+
+}

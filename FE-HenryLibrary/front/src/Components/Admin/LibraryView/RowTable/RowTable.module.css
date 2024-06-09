@@ -1,0 +1,61 @@
+.content{    
+    border-top: 2px solid #01A86C;
+    padding-top: 1% ; 
+    padding-bottom: 1%;
+    background-color: var(--bg) !important;
+}
+
+
+
+.bookRow{
+    flex: 3;
+    display: flex;
+    align-items: center;    
+    color: var(--text) !important
+}
+
+.author{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.categories{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.rating{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.price{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.stock{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--text) !important
+}
+
+.edit{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bookRowTitle{
+    color: var(--text) !important
+}

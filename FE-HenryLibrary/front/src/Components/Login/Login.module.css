@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+p{
+    color: black;
+}
+
+.container{
+    right: 12rem;
+    top: 5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 100;
+}
+
+.containerItems {
+    width: 18rem;
+    height: 25rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 10px 1px var(--sombras);
+    padding-top: 30px;
+    padding-bottom: 3rem;
+    background-color: var(--bg);
+
+}
+
+.cerrar{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+
+.img {
+    width: 3.3rem;
+    height: 3.2rem;
+    background-color: #ABABAB;
+    border-radius: 180px;
+    align-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 2px 1px 8px #ABABAB;
+}
+
+.input {
+    width: 200px !important;
+    height: 30px !important;
+    margin-bottom: 1rem;
+    border-radius: 30px !important;
+    /* box-shadow: inset 0px 0px 12px 0px #888; */
+    border: 1px solid #ABABAB !important;
+    text-align: center;
+    color: #5d5d5d;
+    font-size: 13px;
+    /* border: none; */
+    outline: none;
+    background-color: #fff;
+    
+}
+
+.cuenta{
+    display: flex;
+    flex-direction: column;
+    color: #01A86C;
+    font-size: 14px;
+    margin-top: 0.6rem;
+    text-decoration: underline;
+}
+
+.boton {
+    background-color: #01A86C;
+    height: 2rem;
+    width: 200px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white
+
+}
+
+.boton:hover {
+    box-shadow: 2px 2px 4px #01a86b9b;
+}
+
+.iconoEmail{
+    position: absolute;
+    top: 7.5rem;
+    right: 13.5rem;
+}
+.noIconoEmail{
+    position: absolute;
+    top: 10.5rem;
+    right: 13.5rem;
+}
+
+
+.iconoContraseña{
+    position: absolute;
+    top: 0.5rem;
+    right: 2.5rem;
+}
+
+.noIconoContraseña{
+    position: absolute;
+    top: 13.3rem;
+    right: 13.5rem;
+}
+
+.iconoVerContraseña{
+    position: absolute;
+    top: 10.5rem;
+    right: 3.5rem; 
+}
+
+.nombre{
+    margin-bottom: 3rem;
+    color: var(--text);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+
+@media (max-width: 844px) {
+
+    .container {
+        right: 3rem;
+        top: 9rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        z-index: 100;
+    }
+        
+}
